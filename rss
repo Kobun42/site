@@ -2,14 +2,14 @@
 <rss version="2.0">
 <channel>
 <title>Kobun42's RSS Feed</title>
-<link>https://kobun42.github.io</link>
+<link>http://kobun42.neocities.org</link>
 <description>Service not online at the moment.</description>
 <item>
-  <title>Under construction</title>
-  <link>https://kobun42.github.io</link>
-  <guid>https://kobun42.github.io</guid>
-  <pubDate>Sat, 0 Jan 2000 00:00:00 GMT</pubDate>
-  <description>The site and all services are currently not availible at the moment.</description>
+  <title>Looks like you got the rss early.</title>
+  <link>http://kobun42.neocities.org</link>
+  <guid>http://kobun42.neocities.org</guid>
+  <pubDate>N/A</pubDate>
+  <description>You probably won't be getting much info now due to the site not being ready.</description>
 </item>
 </channel>
 </rss>
