@@ -11,5 +11,12 @@
   <pubDate>Day, 0 Month 2000 00:00:00 GMT</pubDate>
   <description>The quick brown fox jumps over the lazy dog. [DEMO]</description>
 </item>
+<item>
+  <title>Service disabled.</title>
+  <link>http://kobun42.neocities.org</link>
+  <guid>http://kobun42.neocities.org</guid>
+  <pubDate>Mon, 0 Jan 2000 00:00:00 GMT</pubDate>
+  <description>chicken fajitas in the oven at 6 o' clock.</description>
+</item>
 </channel>
 </rss>
