@@ -5,14 +5,14 @@
 <link>http://kobun42.github.io</link>
 <description>Service not online at the moment.</description>
 <item>
-  <title>Demo RSS Item.</title>
+  <title>Demo RSS Item</title>
   <link>http://kobun42.neocities.org</link>
   <guid>http://kobun42.neocities.org</guid>
   <pubDate>Day, 0 Month 2000 00:00:00 GMT</pubDate>
   <description>The quick brown fox jumps over the lazy dog. [DEMO]</description>
 </item>
 <item>
-  <title>Service disabled.</title>
+  <title>Service disabled</title>
   <link>http://kobun42.neocities.org/news/disabled.html</link>
   <guid>http://kobun42.neocities.org</guid>
   <pubDate>Mon, 1 Jan 2000 00:00:00 GMT</pubDate>
