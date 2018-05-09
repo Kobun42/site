@@ -1,8 +1,15 @@
 <html>
 <head>
 <title>Tubby Custard!</title>
+<script>
+var snd = new Audio("tubbycustard.mp3");
+function tubby() {
+  snd.play()
+  snd.currentTime=0;
+}
+  </script>
 </head>
 <body>
-<button type="button" class="btn">TUBBY CUSTARD!!!!!!</button>
+<button type="button" class="btn" onclick="tubby()">TUBBY CUSTARD!!!!!!</button>
 </body>
 </html>
