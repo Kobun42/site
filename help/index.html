@@ -23,10 +23,12 @@ var snd = new Audio("sfx-cursor-select1.wav");
 var ovr = new Audio("sfx-cursor-move1.wav");
 function tubby() {
   snd.play()
+  snd.oncanplaythrough = isAppLoaded;
   snd.currentTime=0;
 }
 function select() {
   ovr.play()
+  ovr.oncanplaythrough = isAppLoaded;
   ovr.currentTime=0;
 }
   </script>
