@@ -1,0 +1,45 @@
+<html>
+<head>
+<style>
+body {
+    background-image: url("https://kobun42.github.io/dash1dirbg.png");
+    background-repeat: repeat;
+    background-position: left top;
+    background-attachment: fixed;
+}
+p {
+    color: #FFFFFF
+}
+a {
+    color: #FFFFFF
+    }
+h2 {
+    color: #FFFFFF
+    }
+div {
+    position: center;
+    background-image: url("https://kobun42.github.io/dash1menubgbox.png");
+    }
+</style>
+<script>
+var snd = new Audio("sfx-cursor-select1.wav");
+var ovr = new Audio("sfx-cursor-move1.wav");
+function tubby() {
+  snd.play()
+  snd.oncanplaythrough = isAppLoaded;
+  snd.currentTime=0;
+}
+function select() {
+  ovr.play()
+  ovr.oncanplaythrough = isAppLoaded;
+  ovr.currentTime=0;
+}
+  </script>
+</head>
+<body>
+<center><div style="height:400px;width:400px;border:1px solid #ccc;font:16px/26px Georgia, Garamond, Serif;overflow:auto;">
+<h2>Using the RSS server</h2>
+<p>Coming soon!</p>
+    </div></center>
+</body>
+</html>
