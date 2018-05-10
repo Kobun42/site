@@ -18,11 +18,23 @@ div {
     background-image: url("https://kobun42.github.io/dash1menubgbox.png");
     }
 </style>
+<script>
+var snd = new Audio("sfx-cursor-select1.wav");
+var ovr = new Audio("sfx-cursor-move1.wav");
+function tubby() {
+  snd.play()
+  snd.currentTime=0;
+}
+function select() {
+  ovr.play()
+  ovr.currentTime=0;
+}
+  </script>
 </head>
 <body>
 <center><div style="height:400px;width:400px;border:1px solid #ccc;font:16px/26px Georgia, Garamond, Serif;overflow:auto;">
 <p>What do you need help with?</p>
-<a href="/rss.html">Using the RSS server</a>
+<a href="/rss.html" onclick="tubby()" onmouseover="select()">Using the RSS server</a>
     </div></center>
 </body>
 </html>
