@@ -1,0 +1,849 @@
+Version 9.0.0.0 (29/11/20XX)
+New Features
+-You now cannot defeat airman!
+
+[MegaManMaker_v1_4_2_1.zip | http://www.mediafire.com/file/n815ombkfrhbmfa/MegaManMaker_v1_4_2_1.zip/file]
+
+
+
+Version 1.4.1 (28/7/2018)
+Changes
+-Significantly optimized memory usage when playing multiple levels. This should make the Wily challenges less prone to out-of-memory errors.
+-Removed the black around Dark Man 4's tileset.
+-The credits now scroll faster when the game lags.
+-Super Arrow can now break Party Balls.
+
+
+Fixed Bugs
+-Shade Man can reflect your Noise Crush while draining your health, causing you to get stuck.
+-Touching a weapon remover can crash the game when having certain weapons in your first slot.
+-Shade Man can get stuck under ceilings after diving.
+-Push Blocks sometimes shake when spawned from off-screen.
+-When placing Tom Daddy upside down right above a floor, it can clip.
+-For two seconds after Push Blocks are punched by a Punch Block, they ignore all other Punch Blocks.
+-Enemies trapped in Danger Wrap are destroyed when switching weapons or pausing the game.
+-When standing on the edge of a Push Block, then moving into a wall, you can clip.
+-When a Quick Laser spawns off-screen, it can crash the game under specific circumstances.
+-Certain solid blocks will allow downward fans to continue blowing instead of being blocked.
+-Reloading levels causes some upside down fans to be displaced on load.
+-Spring Man's gets stuck in midair after his fist attack if you reflect other projectiles.
+-Spring Man's arm links stay around after he dies.
+-Minoan doesn't spawn properly during Flash Stopper.
+-Tsuranattori crashes due to issues with determining the leader of the pack.
+-Kaminari Kogoro's lightning is affected by Gravity Hold.
+-Going online usually gives an error on the first attempt.
+-Wind can still affect you while in a teleporter, causing weird results.
+-When Turbo Roader collides with a wall in the air, then lands, it will not move again.
+[MegaManMaker_v1_4_1.zip | http://www.mediafire.com/file/vzdosl928o9vm6y/MegaManMaker_v1_4_1.zip/file]
+
+
+
+Version 1.4.0 (25/7/2018)
+New Features
+-A brand new challenge mode! Play through a randomized Wily castle filled with community levels, with several lengths and difficulties to choose from. You have limited lives though, so be careful!
+-Content from Mega Man 7!
+-New bosses:
+    - Wind Man
+    - Flame Man
+    - Spring Man
+    - Shade Man
+-New enemies:
+    - Bubukan
+    - Katonbyon
+    - Curlinger
+    - SRU-21/P
+    - Gabgyo
+    - Pooker
+    - Cyber Gabyoall
+    - Yaffu
+    - Squidon
+    - Tripropellan
+    - Icicle Teck
+    - Trio the Wheel
+    - Baccone
+    - Tom Daddy
+    - Frisk Cannon
+    - Gockroach S
+    - Gockroach S Nest
+    - Turbo Roader
+    - Kamimari Kogoro
+    - Cyorown
+    - Gobots
+    - Tsuranattori
+-New weapons:
+    - Shadow Blade
+    - Blizzard Attack
+    - Flame Blast
+    - Knight Crusher
+    - Wild Coil
+    - Noise Crush
+    - Danger Wrap
+    - Jet Adaptor
+    - Power Adaptor
+    - Super Adaptor
+-New gimmicks:
+    - Cracked Block
+    - Push Block
+    - Oil
+    - Fan
+    - Floor Light
+    - Jet Platform
+    - Punch Block
+-New tilesets:
+    - Mega Man 1 Wily 2 + 3 + 4
+    - Mega Man 2 Wily 3
+    - Mega Man 3 Wily 4 + 5 + 6
+    - Dark Man 4
+    - Mr. X 2
+    - Mega Man 6 Wily 1 + 2 + 3
+    - Mega Man 6 Wily 2 Alt
+    - Spring
+    - Freeze
+    - Slash
+    - Slash 2
+    - Junk
+    - Shade
+    - Burst
+    - Turbo
+    - Cloud
+    - Mega Man 7 Wily 1
+-New backgrounds:
+    - Mega Man 1 Wily 2 + 4
+    - Mega Man 3 Wily 4
+    - Mega Man 5 Wily 1
+    - Blizzard 2
+    - Wind 2
+    - Flame 2
+    - Tomahawk 2
+    - Centaur 2
+    - Knight 2
+    - Yamato 3
+    - Plant 2
+    - Mr. X 1 + 2 + 3 + 4
+    - Mr. X 2 Alt
+    - Mega Man 6 Wily 1 + 2 + 4
+    - Mega Man 6 Wily 1 Alt
+    - Spring
+    - Freeze
+    - Slash
+    - Junk
+    - Junk 2
+    - Shade
+    - Shade 2
+    - Shade 2 Alt
+    - Burst
+    - Turbo
+    - Turbo 2
+    - Cloud
+    - Mega Man 7 Wily 1
+-Nearly all music tracks from Mega Man 7 have been added.
+-Music tracks for the Robot Masters, the Wily stages and all boss themes from Mega Man 7 have been added.
+-Implemented 3 new spikes from Mega Man 7.
+-Added Weapon Removers and Yashichis.
+-Added profile icons of all Mega Man 7 Robot Masters.
+-4 new example levels: Creepy Castle by TimeLink, Kerosene Fane by CSketch and Storm Fortress and The Tower of Wily by Aze.
+-Quick Lasers can now be angled, allowing for vertical lasers.
+-You can now upvote or downvote a level by pressing the weapon switch left and weapon switch right buttons respectively.
+
+
+Changes
+-Touching a checkpoint now resets all other checkpoints. Levels made in previous versions are not affected.
+-Brick Drop has been renamed to Block Dropper, the canonical name for the weapon.
+-Rolling Cutter can now hit enemies again on the way back.
+-After testing your level in the builder, the map and UI settings are no longer reset.
+-Restarting a level resets your E-Tanks and M-Tanks, removing an exploit.
+-Drill Bomb's explosion has a larger hitbox.
+-Mummira has a smaller hitbox.
+
+
+Fixed Bugs
+-If you die while holding Atomic Fire, it stays active.
+-Enemy projectiles are unaffected by Ice Slasher.
+-Magnet Missile sometimes refuses to home in on enemies.
+-The Cossack Platform's description contains a typo.
+-Totem Polen and Subeil's descriptions reference Mega Man, which is inaccurate with the new characters.
+-Mega Man 2 Wily 1's background has a transparent pixel.
+-If you walk on a conveyor slowing you down, then spawn a Pukapucker walking towards you, the head may disappear.
+-Proto Man shoots projectile slightly further away from him than he should.
+-Clearing a level on Rush Jet, then jumping off Rush Jet and letting it move off screen can crash the game.
+-You can pick up health and weapon energy pickups while undergoing a screen transition, allowing for clipping.
+-When jumping on an enemy with Top Spin when close to a ceiling, it may not damage the enemy.
+-When opening a Drop Platform, then undergoing a screen transition and going back, it will stay open.
+-Player projectiles can ding off invisible hitboxes below Flame Pillars.
+-Magnet Missile can home in on Teckyuns.
+-Touching a Character Capsule and Energy Element on the same frame crashes the game.
+-Health and Weapon Energy pickups from spawners float up through jumpthrough solids.
+-Standing on a ladder with another ladder two tiles above makes you unable to go down the bottom ladder.
+-Pierobot cannot fall through moving platforms while spawning.
+-Water appears to go through Wanaan platforms in the editor, while in-game it does not.
+-If Crash Man shoots a Crash Bomber up in the air, he may never be able to shoot again.
+-Hyper Bomb cannot bounce on the edges of springs.
+-Komasaburo tops are unaffected by Ice Slasher.
+-Jumping on Wind Storm right under a solid moving platform can make you clip.
+-Magnet Missile can sometimes make enemies disappear before hitting them.
+-Bosses sometimes do not detect when you're shooting, leading to exploits.
+-Going through a boss door outside the current section sometimes causes graphical bugs.
+-Quicksand can push you through jumpthrough platforms.
+-Hitting a boss with the same Wind Storm projectile twice doesn't play a sound effect on the second hit.
+-Ring Boomerang can be reflected by Flame Pillars.
+-Stone Man cannot jump when under the effect of Time Slow.
+-Shield weapons can destroy Flame Pillars. When frozen, it can additionally leave its collision mask behind.
+-Hitting Brain Break with Wind Storm creates a duplicate on the first hit.
+-When Water Wave is fired directly against a wall in the air, it will move once it loses contact with the wall.
+-When firing Water Wave on the ground directly against a wall, with a wall close behind you, it may appear behind that wall.
+-Taking a pickup from a pickup spawner with Ring Boomerang, then scrolling the weapon off-screen, disables the spawner.
+-Super Arrow can crash the game when destroyed at the right time.
+-When a moving platform moves you into spikes, you often do not die.
+-Wind clipping should be reduced.
+-When wind pushes you into spikes, you often do not die.
+-Spines sometimes act weird when falling in a one-tile wide gap.
+-Mega Buster and Needle Cannon can, when not set as the primary weapon, overflow the ammo bar.
+-Pierobot can fall through jumpthrough platforms.
+-When teleporting to a Teleporter near the top of the screen, it can put you on the screen above incorrectly, sometimes causing death.
+-Placing Magnets in a stair formation can remove some of their collision.
+-If you have a weapon as your primary weapon with a duplicate as a non-primary, and the non-primary is equipped, using L+R does not take you to the primary variant.
+-Firing Hyper Bomb in a two-block tall wall from the right while holding down puts it inside the wall.
+-Shooting Super Arrow in a one-block wide gap causes it to clip backwards.
+-When loading a level in-editor, backgrounds can sometimes overlap.
+-Drill Bomb and Dive Missile deal double damage to bosses.
+-Kamasaburo tops can clip with springs in tight corridors.
+-The chain of Presses looks different in the editor and in-game.
+-Footholders vibrate when set to not move.
+-Screen transitioning into a solid moving platform can cause you to clip.
+-Homing weapons can target bosses before they spawn.
+-Character-exclusive weapons for Proto Man and Bass are shown incorrectly in the editor for weapon capsules, blocks and barriers.
+-Blocky shoots its body parts at a slower speed than it should when under the effect of Time Slow.
+-Moving left or right while about to be crushed between a moving platform and the ceiling can make you clip.
+-Presses lose their hitbox during Flash Stopper.
+[MegaManMaker_v1_4_0.zip | https://drive.google.com/open?id=1WDuN9oj3L3WjIuObeOrAoue2HfYs_j9B]
+
+
+Version 1.3.6 (9/4/2018)
+Fixed Bugs
+-If you double jump, then Charge Kick as Bass, you can jump out before the flash.
+-Perfect Freeze and Nado play the wrong sound effect.
+-Super Arrow can get stuck in walls when fired while facing left.
+-If you mash shoot with Bass Buster, then approach a ladder, you can sometimes move horizontally for a short while.
+[MegaManMaker_v1_3_6.zip | http://www.mediafire.com/file/cd3i9x13ay3uxg5/MegaManMaker_v1_3_6.zip]
+
+
+Version 1.3.5 (8/4/2018)
+New Features
+-You can now jump into Treble Boost while it's teleporting to transform early.
+
+
+Changes
+-Ring Man has been made slightly more accurate to the original.
+
+
+Fixed Bugs
+-Looping sound effects ignore volume settings.
+-Garyobies turn around when hit by Pharaoh Shot.
+-Bass Buster cannot hit Rolling Drills from behind.
+-Treble Boost's hovering effect is sometimes more extreme than it should be.
+-If a Water Wave ball lands right next to a boss, it can deal more damage than usual.
+-Hard Man has weird interactions with springs.
+[MegaManMaker_v1_3_5.zip | http://www.mediafire.com/file/13sfuhquwh9tq1a/MegaManMaker_v1_3_5.zip]
+
+
+Version 1.3.4 (7/4/2018)
+New Features
+-You can now set the volume for music and sound effects in the options menu.
+-Party Balls and Energy Elements now have dedicated level icons.
+-Added a construction Met to the list of profile icons.
+
+
+Changes
+-Ring Man shoots his projectiles a little later, being more accurate to the original.
+-The level info card now always has Play as the default selected option.
+-Spines (and spine-like enemies) can now be destroyed by Thunder Beam, Hyper Bomb, Pharaoh Shot and Drill Bomb.
+
+
+Fixed Bugs
+-Random level is unreliable.
+-Standup Comedy displays the wrong profile icon.
+-Placing a character inbetween vertical sections can cause the game to softlock or crash.
+-Crazy Razy creates a clone of itself when killed by Gravity Hold.
+-Metall Cannon is unaffected by gravity.
+-When the player spawns on a ladder, they fall through.
+-In the editor, Proto Jet uses Proto Coil's icon.
+-Reflecting a destroyable enemy projectile back at another destroyable enemy projectile while having Nothing as your weapon can crash the game.
+-Projectiles from Cannon and Bomb/Rock Thrown can crash the game when spawned directly on top of Ring/Coil platforms.
+-Hyper Bomb explosions can be reflected by weapon blocks and barriers.
+-While Brain Break is frozen by Ice Slasher, it cannot be killed by regular projectiles, but can still drop item pickups.
+-Gyoraibo sometimes uses the panic animation while underwater.
+-Girees still play their animation during Flash Stopper.
+-Ring Man can get stuck at the left or right side of the screen.
+-When riding Oil Slider underwater along a ceiling, using Bass with double jump enabled, then jumping, you can clip.
+-Starting a level online, exiting and beating a level of your own counts as beating the original level.
+-Crystal Joe's projectiles still animate during Flash Stopper.
+-While Blocky is frozen, it has weird interactions with moving platforms, occasionally resulting in a crash.
+-When Crystal Eye hits an enemy while inside a wall, the small Crystal Eyes it creates can get stuck.
+-Bass keeps can continuously dash under Time Bombs, even though there's enough space for him to walk.
+-Touching an Oil Slider blob while sliding under a ceiling causes you to clip.
+-Touching a spring while sliding under a ceiling can cause clipping.
+-Putting springs directly below Time Bombs can cause you to clip inside them.
+-Girees are affected by Magnet Beam.
+-Placing the player directly above water causes a ton of splashes to appear.
+-Proto Buster, Proto Coil, Proto Jet, Bass Buster and Treble Boost have incorrect icons in the boss settings menu.
+-When placing a key door right after a section border on the left, you can transition through it.
+-If you shoot Bass Buster on the ground, then shortly after grab a ladder, you can move horizontally for a short while.
+-If you move a boss, the section the boss used to be in still has a special color on the minimap.
+-Quicksand overlaps the Ready text.
+-Reflecting Skull Man's projectiles on the frame they spawn crashes the game.
+-Bosses are affected by springs before they can act, which allows them to clip into ceilings.
+[MegaManMaker_v1_3_4.zip | http://www.mediafire.com/file/0krtvnlqynv4072/MegaManMaker_v1_3_4.zip]
+
+
+Version 1.3.3 (2/4/2018)
+New Features
+-You can now press Ctrl + V in the online menu when entering a search term or level ID, to quickly paste whatever text you have copied.
+
+
+Changes
+-Improved Skull Man's description.
+-Minor tutorial dialogue changes to account for multiple characters.
+-Water Wave can now destroy Flame Pillars when it's underwater or a drop.
+-The night theme in the editor has a different scroll bar color.
+
+
+Fixed Bugs
+-Creating a level with just a boss arena, then playing it through the editor causes some problems.
+-Rolling Drills can destroy blocks around them before they spawn.
+-Weapon Capsules sometimes have the wrong color when switching characters.
+-Weapon Capsules have incorrect icons for Proto Buster, Bass Buster, Proto Coil, Proto Jet and Treble Boost.
+-Switching weapons while in the Treble Boost transformation, then dashing or climbing can lock up your controls.
+-If you spawn directly on top of a Ring or Coil Platform, you fall through.
+-If you shoot Bass Buster on a ladder, then hold left or right, you can move horizontally.
+-If you shoot Bass Buster on a ladder right under a ceiling, then hold up and shoot, then mash jump with double jump enabled, you can clip inside.
+-Water sometimes flows through terrain.
+-When asked to place terrain in a new section in the tutorial, the section on the left and diagonal sections do not count.
+-Brain Break creates a duplicate of itself when hit by Gravity Hold.
+-Minoans do not spawn properly when coming from above.
+-If you scroll a frozen Fire Pillar off screen, then come back, it leaves its collision behind for a short while.
+-Rolling Drills can destroy terrain slightly off screen.
+-Yambows stop at moving platforms.
+-Magnet Missile doesn't home in on Wall Blasters properly.
+-When grabbing a ladder while on a jumpthrough moving platform, there can be horizontal displacement.
+-Girees can travel along Item-1, 2 and 3.
+-Telly spawners can spawn Tellies before Mega Man spawns.
+-Weapon Blocks, Weapon Barriers and Weapon Capsules display an incorrect icon when your weapon is set to Nothing.
+-When killing a Pukapucker base, then respawn it while the head is still on screen, the head becomes attached to the new base.
+-Water Wave can be fired through walls when hugging them.
+-Whopper still animates during Flash Stopper or when the game is paused.
+[MegaManMaker_v1_3_3.zip | http://www.mediafire.com/file/wlb14nslk4aw8w1/MegaManMaker_v1_3_3.zip]
+
+
+Version 1.3.2 (29/3/2018)
+New Features
+-The tutorial now features more poses for Wily and Light.
+
+
+Changes
+-Bass Buster is more accurate to how it was in Mega Man 10.
+
+
+Fixed Bugs
+-Big Fish can be moved by Rush Jet.
+-If you slide into a Mega Man character capsule with sliding disabled, Mega Man will slide forever.
+-If you cancel Treble Boost, then dash, your controls may lock.
+-If you cancel Treble Boost, then grab a ladder, your controls may lock.
+-You can't pause the game while using Treble Boost.
+-Bass can occasionally clip inside walls by dashing over a one-block gap, directly into a wall.
+-Proto Coil and Treble can spawn in walls.
+-Weapon barriers don't have correct icons for Proto Buster, Proto Coil, Proto Jet, Bass Buster and Treble Boost.
+-Proto Man's shield cannot reflect projectiles while Proto Man is invulnerable.
+-Proto Man's shield can destroy Flame Pillars.
+-Enemies/gimmicks sometimes face the wrong direction when playing a level online or through the play menu (hopefully fixed for real this time).
+[MegaManMaker_v1_3_2.zip | http://www.mediafire.com/file/k6meq6d76gu8g1c/MegaManMaker_v1_3_2.zip]
+
+
+Version 1.3.1 (25/3/2018)
+Changes
+-Skull Man can now start moving when holding down the shoot button with Bass Buster.
+-Health and weapon energy spawners are now on a local timer, meaning they no longer spawn and play a sound effect when off-screen.
+-Quick Lasers don't get blocked by Rolling Drills anymore.
+
+
+Fixed Bugs
+-Hitting a boss with Water Wave underwater crashes the game.
+-Touching a weapon capsule while using Treble Boost doesn't take away the ability, causing broken animations.
+-Touching a character capsule while Charge Kicking or shooting while standing still (Bass only), the game crashes.
+-Rush Coil/Jet weapon blocks don't switch colors accordingly when touching a character capsule.
+-You can still move when using Treble Boost upon completing a level, or when a boss spawns.
+-Dashing into Treble Boost at point-blank range causes animation issues.
+-Coil platforms do not autotile correctly when removed in the editor.
+-Ring platforms and coil platforms can sometimes autotile together, causing weird results.
+-Changing weapons while transforming into Treble Boost allows you to use that weapon while flying, with broken animations.
+-Whopper's description contains a typo.
+-Rolling Drill spawners still play their animation when the game is paused.
+-Rolling Drill spawners facing left break blocks directly to the right of it when spawning the drill.
+-When a Yoku Block spawns on top of a Rolling Drill, the drill moves upwards.
+-Water Wave can destroy frozen Fire Pillars.
+-Rolling Drill has some depth issues.
+-Touching a character capsule the frame you start a screen transition can crash the game.
+-Walking, then dash-jumping and shooting while moving through a boss door as Bass can play an incorrect animation.
+-When climbing against a ceiling as Bass, then holding shoot, letting go and immediately double-jumping, you can sometimes clip into the ceiling.
+-Quicksand can affect the player before they spawn.
+[MegaManMaker_v1_3_1.zip | http://www.mediafire.com/file/f56ukg0hap5kq4l/MegaManMaker_v1_3_1.zip]
+
+
+Version 1.3.0 (23/3/2018)
+New Features
+-Two new playable characters, Proto Man and Bass! They each have their own unique abilities, some of which can be enabled or disabled in the global settings.
+-Addec character capsules to allow changing characters on the fly!
+-New bosses: Ring Man, Skull Man, Crystal Man and Charge Man.
+-New enemies: Minoan, Wall Blaster, Totem Polen, Pakatto 24, Docron, Docron Spawner, Mummira, Garyoby, Whopper, Bomb Thrown and Rock Thrown, Metall Cannon, Subeil, Giree, Giree Spawner, Tondeall, Pukapucker and Bounder.
+-New weapons: Drill Bomb, Power Stone, Water Wave, Crystal Eye, Super Arrow and Treble Boost (Bass only).
+-New gimmicks: Ring Platform, Coil Platform, Quicksand, Rolling Drill and Teckyun.
+-New tilesets: Cossack stages 1 and 3, Wily stages 1 and 2 from Mega Man 4, Dark Man stages 1, 2 and 3 and Wily stage 1 from Mega Man 5.
+-New backgrounds: Cossack stages 3 and 4, Wily stages 1, 2 and 3 from Mega Man 4, Dark Man stages 1, 2, 3 and 4 and Wily stages 2, 3 and 4 from Mega Man 5.
+-Added health and weapon energy spawners.
+-Character abilities and weapon slots are now displayed on the boss intro screen, even online.
+-You can now right-click an enemy's color icon to go back to the previous color.
+-Added Bass to the profile icons selection.
+-Two new example levels: Automata Fortress by Nickelasse and Escape from the Space Station Puzzle by Meka, both winners from the level contest.
+
+
+
+Changes
+-Spines are weak to more weapons, all of which were effective against Spine-like enemies in the original games.
+-Pressing the Map and UI switches in the editor has been made more lenient.
+-Weapon blocks and barriers now default to having no weapon, allowing you to place reflecting blocks with a full weapon set.
+-By default, the editor now starts about a quarter into the level horizontally. This allows you to easily expand your level to the left.
+-Restarting from the last checkpoint when you haven't touched a checkpoint now acts as restarting the stage, which means ammo gets refilled and tanks respawn. Also applies to quick restarting.
+-Charge Man's second background now moves at 60 fps, making it much smoother.
+
+
+Fixed Bugs
+-Enemies, most notably Fan Fiends, sometimes face the wrong way when playing a level online.
+-Loading a level from the menu without playing a level first can result in all empty weapon slots getting filled with Silver Tomahawk.
+-Brain Break cannot be killed while Flash Stopper is active.
+-There is one pixel horizontally where you can active the Map and UI switches in the editor at the same time.
+-Tama, its fleas and its yarn balls cannot be frozen by Ice Slasher.
+-Magfly can still carry you when climbing a ladder.
+-You can start climbing a ladder while sliding under a ceiling, allowing you to clip.
+-Moving an Oil Slider blob by a jumpthrough moving platform can cause the game to crash under certain circumstances.
+-On large resolutions, a bit of Mega Man's blue palette may be visible when using a different palette.
+-Elec Beams, Fire Beams and Flame Pillars are affected by Gravity Hold.
+-Key doors can be despawned with pixel-perfect movement.
+-Search Snake can clip on certain terrain layouts.
+-If you're standing on a solid that's two blocks into the screen below, then move to an empty space, you can transition into the solid and get stuck.
+-Magnet Man, Hard Man and Wood Man can't destroy weapon blocks or barriers.
+-When standing directly against a wall, Magnet Man can't hurt you with his Magnet Missiles.
+-Sometimes you can't enter or change your level name.
+-You can clip into magnets sometimes.
+-Bosses drop an item when crushed by a moving platform.
+-If you slide onto Oil Slider, you can still move below one block tall ceilings for a short while.
+-When shooting Gemini Laser directly against a wall, parts of it can go through the wall.
+-The Energy Balancer doesn't reliably fill up the weapon with the least ammo.
+-Moving platforms can still move you if you're in a teleporter.
+-If you slide into spikes while on a moving platform at a specific height, you can slide through them.
+[MegaManMaker_v1_3_0.zip | http://www.mediafire.com/file/22g44qz1bv1wb31/MegaManMaker_v1_3_0.zip]
+
+
+
+Version 1.2.4 (29/12/2017)
+Fixed Bugs
+-Elevators (multiple vertical moving platforms next to each other) often make you fall through them when moving from one platform to another.
+-Octopus Batteries can very occasionally crash the game when the level starts.
+-Quick-restarting while healing makes the sound effect play indefinitely.
+-Solid moving platforms can clip you upon pushing you into a ceiling or floor while sliding.
+-Enemies slide when moved by multiple platforms at once.
+-Crash Lifts can go off-track when just barely outside the screen.
+-When Time Slow ends during Pharaoh Man's wave attack, he can stop moving.
+[MegaManMaker_v1_2_4.zip | http://www.mediafire.com/file/ybx1nuorrqyelfr/MegaManMaker_v1_2_4.zip]
+
+
+
+Version 1.2.3 (24/12/2017)
+Changes
+-When you pick up a weapon capsule, die, then pick it up again, the weapon's ammo is now fully restored.
+-The aerial victory sprite has been modified slightly.
+
+
+Fixed Bugs
+-Moving platforms have been completely rewritten and should be much more stable. Please report any issues you still encounter with them, though.
+-Spines can very occasionally crash the game.
+-Crash Lifts can go off-track... again.
+-Cossack Platforms can clip through other moving platforms while moving up.
+-Selecting an item from your Favorites menu doesn't play the menu closing sound effect.
+-Oil Sliding into a Brain Break removes the oil, causing you to slide on nothing.
+-Grabbing a weapon capsule doesn't reset certain weapon states (Top Spin, Nado, Oil Slider etc).
+-Sliding into a wall while on a conveyor and under a ceiling makes you slide in place.
+-When you win while sliding and facing left, the slide victory pose still faces right.
+-The slide and aerial victory poses are slightly misaligned horizontally.
+-If Fan Fiends push you into spikes, you don't die.
+-Crash Lifts that start in a corner sometimes go in the wrong direction.
+-Mag Flies can clip you inside walls under specific conditions.
+-If a Mag Fly is attracting you, you can't move up when against a floor or down when against a ceiling.
+[MegaManMaker_v1_2_3.zip | http://www.mediafire.com/file/1bwcoh6967cx6t9/MegaManMaker_v1_2_3.zip]
+
+
+
+Version 1.2.2 (20/12/2017)
+New Features
+-Mega Man now has different victory poses for when he's in the air, sliding or climbing a ladder.
+-You can now use F1-5 to switch between different screen sizes at any moment.
+
+
+Changes
+-Made the connection timeout for the random level option longer, so it should fail less often.
+
+
+Fixed Bugs
+-Crash Lifts that start vertically sometimes mess up when playing an online level.
+-Crash Lifts can get stuck on edges after Time Slow is used.
+-Off-screen Crash Lifts sometimes go off their rails.
+-Press is not affected by Flash Stopper.
+-Press is not affected by Time Slow while moving up.
+-Time Man can destroy non-Time Slow blocks when said block belongs to your currently equipped weapon.
+-Your level card shows a very large negative number for your average score if you have no levels.
+[MegaManMaker_v1_2_2.zip | http://www.mediafire.com/file/gyyutknvq2viz50/MegaManMaker_v1_2_2.zip]
+
+
+
+Version 1.2.1 (18/12/2017)
+Changes
+-Item-3 can now fit in one block wide gaps.
+
+
+Fixed Bugs
+-If you get a timeout when loading a random level, you're taken back to the old Misc menu.
+-Key doors don't stay open when restarting the level from a checkpoint.
+-Magnet Man can clip through terrain when put in a small space.
+-If Gemini Laser hits a protected enemy on the frame that it's fired, the game crashes.
+-Water does not get stopped by boss plates.
+-The description for the weapon capsule is incorrect.
+-If you scroll a Press off-screen while it's down, then scroll it on-screen, it will remain at that height.
+-The game can randomly crash when using the category shortcut keys in the editor.
+-When playing a level with Crash Lifts from the online menu, the game can randomly crash upon starting the level.
+-Time Man cannot destroy Time Slow blocks/barriers.
+-The game softlocks when getting a server error when loading your profile card.
+[MegaManMaker_v1_2_1.zip | http://www.mediafire.com/file/mdeyjty40cl0sx2/MegaManMaker_v1_2_1.zip]
+
+
+
+Version 1.2.0 (17/12/2017)
+New Features
+-Weapon capsules are finally here. Pick them up mid-stage to unlock a new weapon.
+-Keys and key doors have been added, which allows you to block off paths until a key is found.
+-New bosses: Bubble Man, Wood Man, Magnet Man and Hard Man.
+-New enemies: Fly Boy, Fly Boy Spawner, Fan Fiend, Shrink, Komasaburo, Hari Harry, Cannon, Walking Bomb, Gyoraibo, Yambow, Mag Fly and Tama.
+-New weapons: Air Shooter, Leaf Shield, Gemini Laser, Brick Drop, Item-1, Item-2 and Item-3.
+-New gimmicks: Press, Crash Lift, Wanaan and Magnet.
+-New tilesets: Wily stages 1, 2, 4 and 6 from Mega Man 2 and Wily stages 1, 2 and 3 from Mega Man 3.
+-New backgrounds: Wily stages 1, 4 and 6 from Mega Man 2, Magnet Man and Wily stage 3 from Mega Man 3. 
+-Added Wily, Cossack and Mr. X plates to make your boss entrances that much more threatening.
+-The online menu has been revamped. It now has a more intuitive interface, along with some new features.
+-The level cap has been increased to 20, meaning you can upload twice as many levels as before!
+-From now on, the changelog can be displayed in-game whenever a new version is available.
+-Added a shortcut for restarting from the last checkpoint. You can do this with Ctrl + R or Weapon Switch left + Weapon Switch Right + Jump + Pause (L + R + A + Start).
+
+
+Changes
+-Improved the minimap; it is no longer transparent for better visibility, its color changes depending on the UI scheme and sections with a boss, party ball or energy element are marked with a different color.
+-My levels in the online menu has been replaced with My profile, taking you to your new user card. You can still find your uploaded levels here as well.
+-Quick Man's tileset more accurately resembles the original.
+-Hyper Bomb now explodes after being in the air for a while (e.g. when bouncing on springs).
+-Changed the abbreviated names of some weapons.
+-Pressing the section toggle icon now produces a sound effect.
+
+
+Fixed Bugs
+-Moving platforms should be more stable now.
+-If you pause the game while health is refilling, the sound keeps playing, even if you restart the level.
+-If you destroy a Pierobot gear while the clown is falling, the clown will bounce on nothing.
+-If you Charge Kick through a boss door with a boss on the other screen, and this boss door is entirely on the previous screen, you can float in the air.
+-Teleporting across multiple screens, then touching an element right as you leave the teleporter, crashes the game.
+-Switching weapons while only having the Nothing weapon can freeze the game.
+-The UI's hand sprite changes when it's grayed out.
+-Peterchy's object description has a typo (occassionally instead of occasionally).
+-If you Top Spin on a Mechakkero over spikes while it's low to the ground, you die instead of bouncing off.
+-Blockies can clip through walls when pushed by a conveyor belt with a specific setup.
+-In the UI, the minimap can overlap the scheme change menu, causing weird effects when clicking on both at once.
+-The number of shots Crazy Canon fires doesn't get reset when they respawn.
+-If you place a Pierobot directly against a wall, facing that wall, it can clip upwards.
+-More that I forgot to list here.
+[MegaManMaker_v1_2_0.zip | http://www.mediafire.com/file/nwy9mdl2g112jm7/MegaManMaker_v1_2_0.zip]
+
+
+
+Version 1.1.3 (4/11/2017)
+Fixed Bugs
+-The game is blurry on certain devices.
+-Ice Man and Time Man can only break weapon blocks, not weapon barriers.
+-Bomb Man cannot break weapon blocks or barriers.
+[MegaManMaker_v1_1_3.zip | http://www.mediafire.com/file/ty14nrsm7qo4o7b/MegaManMaker_v1_1_3.zip]
+
+
+
+Version 1.1.2 (3/11/2017)
+New Features
+-Added the Energy Balancer. No need to buy it in a shop, this is always active. Whenever you pick up weapon energy when your current weapon's ammo is full, it automatically refills the weapon with the least ammo.
+-When hovering your mouse over a favorite, the game now gives you an explanation of dragging favorites to re-arrange or delete them.
+
+Changes
+-Improved performance thanks to texture page optimizations.
+-When a new version arrives, the game now asks you if you want to update the game, rather than download it.
+-Reduced Big Fish's hitbox size and nerfed their contact damage.
+
+Fixed Bugs
+-The auto-updater still links to the old domain.
+-Yoku Block timers aren't affected by Time Slow.
+-Charged Atomic Fire deals no extra damage against bosses, even when it's their weakness.
+-Defeating a boss, then going in a teleporter at the right time can cause the game to crash.
+-Brain Breaks move up continuously when hugging a wall.
+-Creating a level with nothing as the primary weapon, then re-loading the level causes the primary weapon to become Silver Tomahawk.
+-If you load an example level, then load another level in-editor and attempt to save it, it says you can't save an example level, preventing you from saving your level altogether.
+-Jumping on an enemy's head with Top Spin right under a ceiling can cause you to clip.
+[MegaManMaker_v1_1_2.zip | http://www.mediafire.com/file/zwgfm2eh8wiiof6/MegaManMaker_v1_1_2.zip]
+
+
+
+Version 1.1.1 (28/10/2017)
+Changes
+-Weapon blocks and barriers now have distinct icons.
+-Improved the hand tool sprite.
+-Charge Man's second background doesn't have a fixed sky color anymore.
+-Slightly decreased the hitboxes of Met, Neo Met, Hothead, Skeleton Joe and Colton to better match how much space they occupy in the builder.
+
+Fixed Bugs
+-Fixed some mistakes in object descriptions.
+-On certain devices, moving the screen can cause small gaps to appear inbetween tiles.
+-Clicking a recent item when in the pickups category sometimes crashes the game.
+-The game still links to the old domain's Captcha during account registration.
+-If you scroll down in the category menu, then switch to a different game with the arrow keys, the scroll isn't reset and the icons are displayed incorrectly.
+-The position of the scroll bar is a few pixels off.
+-Flame Pillars bases sometimes become non-solid, allowing you to clip through them.
+-If you place a Hot Dog in the air and defeat it after it's fallen to the ground, it will teleport to its initial aerial position when defeated.
+-Firing two dive missiles at a durable enemy at the same time kills it very quickly.
+-Moving an object in the tutorial can crash the game.
+-Animated tilesets are not frozen or slown down with Flash Stopper/Time Slow.
+-Bosses will be hit twice when you fire two Oil Blobs in the same location.
+-Oil Slider blobs can clip through walls underwater.
+-Oil Slider blobs keep their momentum after colliding with a wall.
+-Attempting to exit the tutorial while the category menu is open, then selecting no, prevents you from placing any objects.
+-Breaking a weapon block with Charge Kick from the right is unreliable.
+-Breaking a weapon block with Top Spin from the bottom is unreliable.
+-Mechakkero stays in its grounded animation when jumping next to a wall.
+-When placed in the air, Ice Man, Time Man, Spines and Crazy Razies can clip into walls.
+-Blockies can crash the game at random.
+[MegaManMaker_v1_1_1.zip | http://www.mediafire.com/file/55c2j5cp9kq61k2/MegaManMaker_v1_1_1.zip]
+
+
+
+Version 1.1.0 (24/10/2017)
+New Features
+-A brand-new level builder interface with tons of new features and a much cleaner look overall.
+-Lots of new assets to use in your levels. It's too much to list here, so launch the game and check it out for yourself!
+-The game is now called Mega Man Maker instead of Mega Maker due to trademark issues. The logo as well as some textboxes have been changed accordingly.
+-New fancy main menu graphics.
+-New title theme.
+-The online menu now has a different theme from the regular menu.
+-New pause menu graphics.
+-You can change the color of Pointan (the custom cursor) in Options > Other.
+-In the level builder, you can move the screen with the left mouse button while holding control.
+-New example levels - Authentic MM1 Oil Man and Authentic MM1 Time Man by TheSkipper1995 and Standup Comedy by SnoruntPyro.
+
+Changes
+-Gemini Man's tileset has a better-looking ceiling.
+-Skeleton Joe bones now rotate properly. (This does not change their hitbox and thus has no effects on gameplay)
+
+Fixed Bugs
+-Terrain can become non-solid and enemies can despawn when performing a non-standard screen transition.
+-Pointan won't turn into an eyedropper in fullscreen mode.
+-The auto-updater behaves weirdly when the game is played in fullscreen.
+-After jumping out of a grounded Charge Kick, you can no longer air kick.
+-The trees in Ice Man's background have some color issues.
+-Conveyor belts can clip you into the wall after you got hit.
+-Plant Barrier still makes a healing sound when the game is muted.
+-Teleporters reset enemies and gimmicks when teleporting within the same screen.
+-If you place a boss, then make it de-spawn in the editor, you can place another boss.
+-Conveyor belts become out-of-synch when they are partially offscreen.
+-Conveyor belts are still animated during Flash Stopper.
+-If you click the middle mouse button while moving an object, the game crashes.
+-If you shoot Perfect Freeze then switch weapons or pause, the sound keeps playing.
+-Numbers are white instead of very light gray in the font.
+-If you Charge Kick through a boss door, then jump right after, you are no longer affected by gravity.
+-Conveyor belts can push you through spikes while Skull Barrier is active.
+-Upside-down Screwbombers instantly respawn when defeated at the top of the screen.
+-Left-facing Force Beams appear in the wrong direction for 1 frame.
+-Energy pickups can fill more health or ammo than they should.
+-Water's color does not match the background color palette.
+-More that I forgot to list here.
+[MegaManMaker_v1_1_0.zip | http://www.mediafire.com/file/1jzbfwqm2k2d9qv/MegaManMaker_v1_1_0.zip]
+
+
+
+Version 1.0.9 (9/9/2017)
+New Features
+-Added Cirno's weapon, Perfect Freeze. Spray dozens of quick projectiles and freeze them whenever you want!
+-Added Croakers. What would a Cirno update be without frogs, right?
+-Added a cirnosis remix of Mega Man 5's Wily stages theme.
+
+Fixed Bugs
+-Autosaving should now be more reliable.
+[MegaMaker_v1_0_9.zip | http://www.mediafire.com/file/1d33ibw6yx16t5l/MegaMaker_v1_0_9.zip]
+
+
+
+Version 1.0.5.3 (13/8/2017)
+New Features
+-Drastically optimized the level editor; large levels should now run at a smooth framerate in editor mode.
+-Severely reduced lag in the levels themselves. Large levels in particular should have a much smoother framerate.
+-Clicking an object with the middle mouse button selects that object, acting like an eyedropper tool. You can also hold Alt while clicking an object with the left mouse button, which can be handy for laptop users.
+
+Changes
+-Buffed Wind Storm; it now bounces off walls, doesn't get destroyed by enemies if they don't die and can destroy weak projectiles. You can also jump on it to reach higher ground.
+-Nado now allows you to hold the attack button to gain height rather than having to mash the button.
+-Backgrounds should now match the background color palette.
+-Improved camera flexibility in non-standard screen structures.
+-When auto-playing a level when the game is already open, it no longer opens a second game window. Instead, it closes the old one and opens a new one. If you've already entered your password in the old window, you do not have to enter it again in the new window.
+-Touching a 1-up now plays the 1-up sound on top of healing you.
+-Enemy projectiles no longer despawn when above the screen.
+-NSF files are split up again, which should make custom (offline) NSF replacements easier.
+-You can now slide under Crystal Joe's projectile.
+-The Top Man background's animation is slower (it had the same speed as in MM3, but it was hard on the eyes).
+-If you collide with a wall/ceiling and a spike at the same time, the wall/ceiling now takes priority, allowing you to survive.
+-When a server error happens upon loading a level, the game now displays the error, allowing you to retry rather than softlocking the game.
+
+Fixed Bugs
+-Fixed hitboxes for Big Eye, Mechakkero and Robbit.
+-You can pause on the frame you die, allowing you to use an E-tank and survive on spikes.
+-Quick Lasers shoot again after the game gets paused.
+-Skeleton Joes still hurt you when they're down.
+-Using Search Snake when hugging a wall has weird results.
+-Pole Eggs can destroy solid terrain around them.
+-After playing a level from an auto-play link, you're taken back to your own levels rather than the level info card.
+-The game doesn't register that you've beaten a level if you played it through an auto-play link.
+-Pointan (the custom cursor) can have the wrong size when launching the game through an auto-play link.
+-Refilling your health destroys a Crash Bomber explosion.
+-If you take the boss to a new screen, the health bar sometimes disappears.
+-Mega Man 2 Mets can clip into walls.
+-Weapon energy pickups get stuck at the bottom of the screen.
+-Vertical boss doors could disappear after transitioning through them with a ceiling/floor in the way.
+-If you collect two large energies on the same frame only one triggers.
+-Pressing Caps Lock repeats a letter (for entering a level name, password, search term etc).
+-If you are on Rush Jet, then jump off and immediately grab a ladder, you can move left and right while on the ladder.
+-Loading levels with the same name causes the first level to be loaded (only seemed to happen on certain OSs).
+-Nado can zip when hitting a ceiling.
+-Stone Man can easily clip into a ceiling when jumping right under one.
+-In the pause menu, if you only have one weapon (first slot) and press down twice, you have Silver Tomahawk's palette.
+-If you undergo a screen transition while an enemy is exploding, then come back, the explosion is still there.
+-Big Eyes can get stuck on walls.
+-If you're on a moving platform moving down, you can sometimes clip into floors below you while holding left or right.
+[MegaMaker_v1_0_5_3.zip | http://www.mediafire.com/file/higqflrtabqgthd/MegaMaker_v1_0_5_3.zip]
+
+
+
+Version 1.0.4.1 (2/8/2017)
+New Features
+-Significantly reduced lag on large levels. This should make most levels run at a consistent frame rate on low-end PCs.
+-This is the last time you'll have to update the game manually, thanks to an auto-update system Mors wrote!
+-Added support for one-click level plays; the Discord bot has been updated accordingly, so whenever you or someone else tells the bot to display a level, you can click the link and immediately play it without having to enter the ID manually. Please note that you will have to launch the game at least once before making use of this feature.
+-The game automatically creates a backup of your level every two minutes. If you quit the game abruptly or if the game crashes, you can load this backup when loading your level again. This should prevent major data loss. Make sure to set your level name as soon as you can, otherwise this backup feature does not work.
+-Added Pointan, that cute cursor from the trailer (and Mega Man 10 for that matter). He now replaces your cursor in the editor and menus! You can disable him in the options menu, but you'd make Pointan very sad.
+-Added an optional grid in the level builder.
+-The level introduction screen is now skippable by pressing Jump or Start/Pause.
+-You can now log out through Extras > Profile > Log out.
+-You can also press Control + S in the editor to save your level.
+-You can now decrease an object's number (e.g. that of Yoku Blocks or Time Bombs) by pressing the right mouse button.
+
+Changes
+-The "Log in" now displays "Log in instead" to make it more obvious that this is not the button to click for account creation.
+-The background color palette in the settings category now better matches the colors used in actual backgrounds.
+-"Got stuck on left" errors removed in favor of no camera boundaries. It may still look weird, but at least it doesn't crash the game.
+-Shine and Nado now have 8-bit sound effects.
+-Green Quick Lasers now have a custom draining sound effect.
+-Tiles now only "attach" to section borders when that section isn't used. In other words, whether or not a section is connected doesn't have an impact on tiles anymore. This should fix a bug where some terrain isn't solid (levels created in previous builds may still have non-solid terrain, though).
+-Whenever you create a new level, the default music is randomized; this should get rid of the overuse of the Cut Man theme.
+-When the game fails to upload your level, it now asks you if you want to try again (previously it automatically re-tried up to five times, but people wanted to see this changed).
+-Changed the way the Charge Kick Double Jump works. Previously, you had to switch weapons during the Charge Kick before being able to double jump; now, you can double jump regardless of whether you switch weapons or not, but you can only do so at the end of the slide. Mega Man flashes to indicate when you can double jump.
+
+Fixed Bugs
+-Tutorial theme is Time Man instead of MM7 intro stage.
+-The nado climbing glitch.
+-Plant Barrier can absorb the MM1 Fire Block's and the MM1 Elec Block's "projectiles", whereas Star Crash and Skull Barrier get destroyed by them.
+-Dying on the same frame a transition happens crashes the game (playerCameraInit error).
+-Whenever you use Rush Jet while transitioning screens, if you switch off of the jet at any point during the transition, the game crashes.
+-Enemy drops such as weapon energy persist after leaving a screen.
+-Going through a boss door during the victory jingle crashes the game.
+-Pressing Escape in the tutorial while placing an object, then selecting No will prevent you from placing anything.
+-Enemies can still get hit while the game is paused.
+-Mute does not get rid of the sound made by an E-tank or M-tank filling your health up.
+-If you place both a boss and party ball in a level, then play the stage and beat it through the party ball, you can place another boss.
+-Quick lasers don't reset when switching sections.
+-If you jump on the frame you land, you always do a full hop even if you let go of the jump button early.
+-Sliding under a ceiling and trying to climb down a ladder forces you into the ceiling.
+-If you Charge Kick under a ceiling you do not stop sliding even if you're in the air, sometimes preventing you from moving.
+-If you load a level offline (build) then enter an ID online, it will display Edit instead of Play.
+-Quick switch weapons on the same frame you pause, then unpause without moving in the menu -> use ammo from a different weapon.
+-Collisions with yoku blocks are a bit glitchy.
+-You can slide through spikes with Skull Barrier.
+-If you perform a frame-perfect jump on spikes, you don't die.
+-If you throw a weapon on ice, you stop immediately instead of sliding.
+-You can't Charge Kick into Charge Kick blocks/barriers when standing a few pixels away from them.
+-If you get hit into a spike, then wait until your invincibility runs out and walk into the spike, you don't die.
+-If you use Flash Stopper, then scroll a Time Bomb on screen, it won't be solid.
+[MegaMaker_v1_0_4_1.zip | http://www.mediafire.com/file/4pmyhzp9z2jwjr9/MegaMaker_v1_0_4_1.zip]
+
+
+
+Version 1.0.3 (20/7/2017)
+Fixed Bugs
+-Enemies sometimes don't spawn properly.
+-Sometimes the screen randomly stops scrolling, preventing you from progressing until you restart the stage.
+
+[MegaMaker_v1_0_3.zip | http://www.mediafire.com/file/eoxofsdmqqooaqe/MegaMaker_v1_0_3.zip]
+
+
+
+Version 1.0.2 (19/7/2017)
+Changes
+-Removed Winamp in favor of the Chiptune Player. This means there will no longer be random Winamp errors on startup and the volume won't reset itself every time a new track is played.
+-Significantly reduced lag on lower-end PCs.
+-Water now goes through Dust Blocks and Pole Eggs.
+
+Fixed Bugs
+-Nado still played a sound while the game is muted.
+-Pickups get stuck at the bottom of the screen.
+-Plant Man doesn't work properly when offscreen (his shield disappears immediately)
+-Dying on just the right frame can crash the game.
+-Enemies sometimes don't reset their position when changing screens.
+[MegaMaker_v1_0_2.zip | http://www.mediafire.com/file/2mt7ps8yguv1rse/MegaMaker_v1_0_2.zip]
+
+
+
+Version 1.0.1 (17/7/2017)
+New Features
+-You can now log in. This could be useful if you've created an account on another device or if you created an account during high server load and were stuck.
+-You can now press Ctrl + V in message boxes to paste from your clipboard.
+-You now have the ability to mute the game in Options, because the Winamp DLL made this impossible through Windows Volume Control.
+
+Changes
+-Reduced Timed Bomb's explosion hitbox size.
+
+Fixed Bugs
+-Changing weapons while in Charge Kick makes you slide forever.
+-Creating a level offline, then creating an account and uploading that level makes the game think you didn't create the level, preventing you from uploading it.
+-Placing Mega Man on spikes (upon spawning) softlocks the game.
+-If you put a screw bomber on a ceiling in a vertically scrolling area moving down, they'll appear in the ceiling.
+-You move 1 pixel down if you Charge Kick off a cliff.
+-If you win while on a ladder, you can still move.
+-Pickups still have gravity off-screen.
+-Weapon blocks/barriers can reflect Fire Storm shield.
+-You can add multiple bosses by placing a party ball, removing it, then adding another boss.
+-You cannot vote for a level after playing it through the "Enter ID" menu.
+-If you place a lot of water the editor lags a bunch.
+-When placing blocks near a closed section border, then opening that border (making it connected) this terrain will not be solid.
+-Spawning/transitioning inside a Dust Block makes you get stuck.
+-Falling below the map can crash the game.
+[MegaMaker_v1_0_1.zip | http://www.mediafire.com/file/qjjchwqoc4c09a3/MegaMaker_v1_0_1.zip]
+
+
+
+Version 1.0.0 (15/7/2017)
+New Features
+-The whole game!
+[MegaMaker_v1_0_0.zip | http://www.mediafire.com/file/e0r60h5kzh5u06i/MegaMaker_v1_0_0.zip]
